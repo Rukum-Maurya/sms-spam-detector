@@ -45,7 +45,7 @@ sms-spam-detector/
 
 ---
 
-🛠️ How to Run the App Locally
+## 🛠️ How to Run the App Locally
 Clone the repository:
 
 git clone https://github.com/Rukum-Maurya/sms-spam-detector.git
@@ -63,7 +63,7 @@ Visit http://localhost:8501
 
 
 
-📈 Model Performance
+## 📈 Model Performance
 Metric	Value
 Accuracy	97.4%
 Precision (Spam)	88%
@@ -72,7 +72,7 @@ F1-score	91%
 
 The model performs excellently in detecting spam with minimal false positives.
 
-📌 Future Improvements
+## 📌 Future Improvements
 Use TF-IDF for improved vectorization
 
 Add stopword removal and lemmatization
@@ -81,7 +81,7 @@ Visualize confusion matrix in app
 
 Extend to detect email spam
 
-🧑‍💻 Author
+## 🧑‍💻 Author
 Name: Rukum Maurya
 
 GitHub: @Rukum-Maurya
