@@ -24,15 +24,7 @@ A machine learning project that classifies SMS messages as **Spam** or **Ham (No
 
 ## 🗂️ Project Structure
 
-sms-spam-detector/
-├── data/ # Dataset (sms.tsv)
-├── model/ # Saved model + vectorizer
-├── notebooks/
-│ └── sms_spam_detector.ipynb # EDA + training notebook
-├── app.py # Streamlit web app
-├── requirements.txt # Dependencies for deployment
-└── README.md # Project overview
-
+<pre> ```text sms-spam-detector/ ├── data/ # Dataset (sms.tsv) ├── model/ # Saved model + vectorizer ├── notebooks/ │ └── sms_spam_detector.ipynb # EDA + training notebook ├── app.py # Streamlit web app ├── requirements.txt # Dependencies for deployment └── README.md # Project overview ``` </pre>
 
 ---
 
@@ -46,29 +38,29 @@ sms-spam-detector/
 ---
 
 ## 🛠️ How to Run the App Locally
-Clone the repository:
+### Clone the repository:
 
 git clone https://github.com/Rukum-Maurya/sms-spam-detector.git
 cd sms-spam-detector
 
-Install dependencies:
+### Install dependencies:
 pip install -r requirements.txt
 
-Run the app:
+### Run the app:
 streamlit run app.py
 
 
-Open in browser:
+#### Open in browser:
 Visit http://localhost:8501
 
 
 
 ## 📈 Model Performance
-Metric	Value
-Accuracy	97.4%
-Precision (Spam)	88%
-Recall (Spam)	93%
-F1-score	91%
+### Metric	Value
+#### Accuracy	97.4%
+### Precision (Spam)	88%
+### Recall (Spam)	93%
+### F1-score	91%
 
 The model performs excellently in detecting spam with minimal false positives.
 
@@ -88,5 +80,5 @@ GitHub: @Rukum-Maurya
 
 Learning Path: Mastering ML through real-world projects
 
-📄 License
+## 📄 License
 This project is licensed under the MIT License. Feel free to use, learn from, and extend it.
