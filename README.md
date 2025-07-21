@@ -24,7 +24,17 @@ A machine learning project that classifies SMS messages as **Spam** or **Ham (No
 
 ## 🗂️ Project Structure
 
-<pre> ```text sms-spam-detector/ ├── data/ # Dataset (sms.tsv) ├── model/ # Saved model + vectorizer ├── notebooks/ │ └── sms_spam_detector.ipynb # EDA + training notebook ├── app.py # Streamlit web app ├── requirements.txt # Dependencies for deployment └── README.md # Project overview ``` </pre>
+```
+text sms-spam-detector/
+├── data/                        # Dataset (sms.tsv)
+├── model/                       # Saved model + vectorizer
+├── notebooks/
+│ └── sms_spam_detector.ipynb    # EDA + training notebook
+├── app.py                       # Streamlit web app
+├── requirements.txt             # Dependencies for deployment
+└── README.md                    # Project overview
+
+``` 
 
 ---
 
