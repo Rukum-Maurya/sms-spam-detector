@@ -48,31 +48,54 @@ text sms-spam-detector/
 ---
 
 ## 🛠️ How to Run the App Locally
-### Clone the repository:
 
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/Rukum-Maurya/sms-spam-detector.git
 cd sms-spam-detector
+```
 
-### Install dependencies:
+### Install dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-### Run the app:
+### Run the app
+
+```bash
 streamlit run app.py
+```
 
 
-#### Open in browser:
+### Open in browser
+
+```bash
 Visit http://localhost:8501
+```
 
-
+---
 
 ## 📈 Model Performance
-### Metric	Value
-#### Accuracy	97.4%
-### Precision (Spam)	88%
-### Recall (Spam)	93%
-### F1-score	91%
+### Accuracy: 0.974
 
-The model performs excellently in detecting spam with minimal false positives.
+### Confusion Matrix:
+
+|947  |  19  |
+|----|----|
+|10   | 139|
+
+
+|                    | Precision | Recall                | F1-scorel          | support              | 
+|--------------------|----------|------------------------|--------------------|----------------------|
+| **Ham**                | 99%      | 98%                    | 98%                | 966                  |
+| **Spam**              |   88%    |      93%               |       91%          |   149                |
+
+
+
+>The model performs excellently in detecting spam with minimal false positives.
+---
 
 ## 📌 Future Improvements
 Use TF-IDF for improved vectorization
@@ -83,12 +106,18 @@ Visualize confusion matrix in app
 
 Extend to detect email spam
 
-## 🧑‍💻 Author
-Name: Rukum Maurya
+---
 
-GitHub: @Rukum-Maurya
+## 🙋‍♂️ Author
 
-Learning Path: Mastering ML through real-world projects
+**Rukum Maurya**  
+🔗 [GitHub Profile](https://github.com/Rukum-Maurya)
+
+🔗 [LinkedIn Profile](www.linkedin.com/in/rukummaurya)
+
+
+
+---
 
 ## 📄 License
 This project is licensed under the MIT License. Feel free to use, learn from, and extend it.
