@@ -6,7 +6,7 @@ A machine learning project that classifies SMS messages as **Spam** or **Ham (No
 
 ## 🚀 Live Demo
 
-👉 [Open App on Streamlit Cloud](https://share.streamlit.io/Rukum-Maurya/sms-spam-detector/main/app.py)  
+👉 [Open App on Streamlit Cloud](https://rukum-maurya-sms-spam-detector-app-p3btdl.streamlit.app/)  
 
 
 ---
